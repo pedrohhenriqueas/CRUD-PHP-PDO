@@ -1,0 +1,15 @@
+/* Apenas um comentário */
+
+.btn-savage {
+	background: rgb(132, 14, 201);
+	color: #fff;
+}
+
+.btn-savage:hover {
+	background: rgb(85, 10, 128);
+	color: #fff;
+}
+
+.bg-savage {
+	background: rgb(132, 14, 201);
+}
