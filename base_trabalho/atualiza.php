@@ -43,12 +43,12 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Retorno</title>
     </head>
     <body>
     <h2>Cadastro Atualizado com Sucesso</h2>
-    <hr>
-    <button onclick="history.go(-1);">Retornar</button>
+    <button onclick="history.go(-3);">Retornar</button>
     </body>
     </html>';
             }

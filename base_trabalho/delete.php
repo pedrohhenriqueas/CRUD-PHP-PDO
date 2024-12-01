@@ -22,7 +22,19 @@
             $stmt->bindParam(':id', $id, PDO::PARAM_INT);
 
             if($stmt->execute()){
-                echo "Usuário excluído com sucesso";
+            echo '<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Retorno</title>
+</head>
+<body>
+<h2>Usuário excluído com sucesso</h2>
+<button onclick="history.go(-3);">Retornar</button>
+</body>
+</html>';
             }else{
                 echo "Erro ao excluir cadastro";
             }
